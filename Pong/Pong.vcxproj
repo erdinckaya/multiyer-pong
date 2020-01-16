@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Client1|Win32">
+      <Configuration>Client1</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Client1|x64">
+      <Configuration>Client1</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Server|Win32">
+      <Configuration>Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Server|x64">
+      <Configuration>Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{366621EB-9C1F-41F8-A3BC-348A80749CE4}</ProjectGuid>
+    <RootNamespace>Pong</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Label="vcpkg">
+    <VcpkgConfiguration>Debug</VcpkgConfiguration>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Client1|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Server|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Client1|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Server|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Client1|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Client1|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Server|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Client1|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Server|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>EDITOR;SERVER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>SDL2maind.lib;yojimbod.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Client1|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>CLIENT;ACTIVATE_BOT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>SDL2maind.lib;glew32d.lib;opengl32.lib;SDL2_image.lib;yojimbo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Server|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SERVER;ACTIVATE_BOT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>SDL2maind.lib;glew32d.lib;opengl32.lib;SDL2_image.lib;yojimbo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Editor\Editor.cpp" />
+    <ClCompile Include="Editor\imgui_impl_opengl2.cpp" />
+    <ClCompile Include="Editor\imgui_impl_sdl.cpp" />
+    <ClCompile Include="Graphics\Graphics.cpp" />
+    <ClCompile Include="Graphics\GraphicsManager.cpp" />
+    <ClCompile Include="Graphics\SDL.cpp" />
+    <ClCompile Include="Graphics\SDLContext.cpp" />
+    <ClCompile Include="Graphics\SDLSurface.cpp" />
+    <ClCompile Include="Graphics\SDLWindow.cpp" />
+    <ClCompile Include="Graphics\Shader.cpp" />
+    <ClCompile Include="Input\KeyInput.cpp" />
+    <ClCompile Include="Input\MouseInput.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Network\Config\GameAdapter.cpp" />
+    <ClCompile Include="Network\GameClient.cpp" />
+    <ClCompile Include="Network\GameServer.cpp" />
+    <ClCompile Include="Network\Matcher\ClientMatcher.cpp" />
+    <ClCompile Include="Network\NetworkManager.cpp" />
+    <ClCompile Include="Util\AssetManager.cpp" />
+    <ClCompile Include="World\Consumer\ClientMessageConsumer.cpp" />
+    <ClCompile Include="World\Consumer\ServerMessageConsumer.cpp" />
+    <ClCompile Include="World\Systems\BallMoveSystem.cpp" />
+    <ClCompile Include="World\Systems\BotSystem.cpp" />
+    <ClCompile Include="World\Systems\CollisionSystem.cpp" />
+    <ClCompile Include="World\Systems\DestroySystem.cpp" />
+    <ClCompile Include="World\Systems\ClientGameManagerSystem.cpp" />
+    <ClCompile Include="World\Systems\GizmoSystem.cpp" />
+    <ClCompile Include="World\Systems\NetworkMessageSystem.cpp" />
+    <ClCompile Include="World\Systems\PlayerMoveSystem.cpp" />
+    <ClCompile Include="World\Systems\RenderImageSystem.cpp" />
+    <ClCompile Include="World\Systems\RenderShapeSystem.cpp" />
+    <ClCompile Include="World\Systems\RenderTargetSystem.cpp" />
+    <ClCompile Include="World\Systems\ServerGameManagerSystem.cpp" />
+    <ClCompile Include="World\Systems\SizeSystem.cpp" />
+    <ClCompile Include="World\Systems\TextSystem.cpp" />
+    <ClCompile Include="World\World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Editor\Editor.h" />
+    <ClInclude Include="Editor\imgui_impl_opengl2.h" />
+    <ClInclude Include="Editor\imgui_impl_sdl.h" />
+    <ClInclude Include="Editor\IReflect.h" />
+    <ClInclude Include="Editor\ReflectField.h" />
+    <ClInclude Include="Editor\ReflectGroup.h" />
+    <ClInclude Include="Editor\ReflectObject.h" />
+    <ClInclude Include="Graphics\Font.h" />
+    <ClInclude Include="Graphics\Glyph.h" />
+    <ClInclude Include="Graphics\Graphics.h" />
+    <ClInclude Include="Graphics\GraphicsManager.h" />
+    <ClInclude Include="Graphics\SDL.h" />
+    <ClInclude Include="Graphics\SDLContext.h" />
+    <ClInclude Include="Graphics\SDLSurface.h" />
+    <ClInclude Include="Graphics\SDLWindow.h" />
+    <ClInclude Include="Graphics\Shader.h" />
+    <ClInclude Include="Input\KeyInput.h" />
+    <ClInclude Include="Input\MouseInput.h" />
+    <ClInclude Include="Network\Base\IMessageSender.h" />
+    <ClInclude Include="Network\Base\INetwork.h" />
+    <ClInclude Include="Network\Base\INetworkBase.h" />
+    <ClInclude Include="Network\Base\INetworkClientBase.h" />
+    <ClInclude Include="Network\Base\INetworkDebugger.h" />
+    <ClInclude Include="Network\Base\INetworkServerBase.h" />
+    <ClInclude Include="Network\Base\NetworkDebug.h" />
+    <ClInclude Include="Network\Config\GameAdapter.h" />
+    <ClInclude Include="Network\Config\GameChannel.h" />
+    <ClInclude Include="Network\Config\GameConnectionConfig.h" />
+    <ClInclude Include="Network\Config\GameMessageFactory.h" />
+    <ClInclude Include="Network\Config\GameMessageType.h" />
+    <ClInclude Include="Network\Data\ClientConnectedMessage.h" />
+    <ClInclude Include="Network\Data\GameStateMessage.h" />
+    <ClInclude Include="Network\Data\MyMessage.h" />
+    <ClInclude Include="Network\Data\PauseCommandMessage.h" />
+    <ClInclude Include="Network\Data\PlayerMoveMessage.h" />
+    <ClInclude Include="Network\Data\RestartCommandMessage.h" />
+    <ClInclude Include="Network\Data\StartGameMessage.h" />
+    <ClInclude Include="Network\GameClient.h" />
+    <ClInclude Include="Network\GameServer.h" />
+    <ClInclude Include="Network\Matcher\ClientMatcher.h" />
+    <ClInclude Include="Network\NetworkManager.h" />
+    <ClInclude Include="Util\AssetManager.h" />
+    <ClInclude Include="Util\Color.h" />
+    <ClInclude Include="Util\Constants.h" />
+    <ClInclude Include="Util\Deque.h" />
+    <ClInclude Include="Util\IntersectionUtil.h" />
+    <ClInclude Include="Util\Map.h" />
+    <ClInclude Include="Util\Set.h" />
+    <ClInclude Include="Util\Types.h" />
+    <ClInclude Include="Util\UtilMacro.h" />
+    <ClInclude Include="World\Components\Ball.h" />
+    <ClInclude Include="World\Components\Bot.h" />
+    <ClInclude Include="World\Components\CircleShape.h" />
+    <ClInclude Include="World\Components\Collider.h" />
+    <ClInclude Include="World\Components\Destroy.h" />
+    <ClInclude Include="World\Components\Image.h" />
+    <ClInclude Include="World\Components\Move.h" />
+    <ClInclude Include="World\Components\Name.h" />
+    <ClInclude Include="World\Components\NetworkObject.h" />
+    <ClInclude Include="World\Components\Paddle.h" />
+    <ClInclude Include="World\Components\Player.h" />
+    <ClInclude Include="World\Components\PlayerMoveHistory.h" />
+    <ClInclude Include="World\Components\PlayerNetworkInfo.h" />
+    <ClInclude Include="World\Components\RectangleShape.h" />
+    <ClInclude Include="World\Components\RenderOrder.h" />
+    <ClInclude Include="World\Components\RenderTarget.h" />
+    <ClInclude Include="World\Components\Rival.h" />
+    <ClInclude Include="World\Components\Scale.h" />
+    <ClInclude Include="World\Components\Size.h" />
+    <ClInclude Include="World\Components\Text.h" />
+    <ClInclude Include="World\Components\Translation.h" />
+    <ClInclude Include="World\Consumer\ClientMessageConsumer.h" />
+    <ClInclude Include="World\Consumer\IMessageConsumer.h" />
+    <ClInclude Include="World\Consumer\ServerMessageConsumer.h" />
+    <ClInclude Include="World\EntityFactory.h" />
+    <ClInclude Include="World\Events\AddPlayerEvent.h" />
+    <ClInclude Include="World\Events\ChangeTextEvent.h" />
+    <ClInclude Include="World\Events\CollisionEvent.h" />
+    <ClInclude Include="World\Events\NetworkMessageEvent.h" />
+    <ClInclude Include="World\Events\PauseEvent.h" />
+    <ClInclude Include="World\Events\RemoveTextEvent.h" />
+    <ClInclude Include="World\Events\RestartEvent.h" />
+    <ClInclude Include="World\Events\SendGameStateEvent.h" />
+    <ClInclude Include="World\Events\StartGameEvent.h" />
+    <ClInclude Include="World\Events\UpdateBallMoveEvent.h" />
+    <ClInclude Include="World\Events\UpdatePlayerMoveEvent.h" />
+    <ClInclude Include="World\Systems\BallMoveSystem.h" />
+    <ClInclude Include="World\Systems\BotSystem.h" />
+    <ClInclude Include="World\Systems\CollisionSystem.h" />
+    <ClInclude Include="World\Systems\DestroySystem.h" />
+    <ClInclude Include="World\Systems\ClientGameManagerSystem.h" />
+    <ClInclude Include="World\Systems\GizmoSystem.h" />
+    <ClInclude Include="World\Systems\NetworkMessageSystem.h" />
+    <ClInclude Include="World\Systems\PlayerMoveSystem.h" />
+    <ClInclude Include="World\Systems\RenderImageSystem.h" />
+    <ClInclude Include="World\Systems\RenderShapeSystem.h" />
+    <ClInclude Include="World\Systems\RenderTargetSystem.h" />
+    <ClInclude Include="World\Systems\ServerGameManagerSystem.h" />
+    <ClInclude Include="World\Systems\SizeSystem.h" />
+    <ClInclude Include="World\Systems\TextSystem.h" />
+    <ClInclude Include="World\World.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

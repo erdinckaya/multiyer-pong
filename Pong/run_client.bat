@@ -1,0 +1,1 @@
+start ..\x64\Client1\Pong.exe

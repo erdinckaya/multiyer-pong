@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{fce7f25e-150a-443a-b95d-ed7edbb33a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{69b5715e-18ef-4af5-b9a9-b5ab04822958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{5cdc6586-ac34-44d8-92e9-60fe8b7af0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{9c2689ef-a19f-4fa8-9648-4746704802d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Data">
+      <UniqueIdentifier>{bec55efa-2002-4bdd-908c-e265bb1b46d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Config">
+      <UniqueIdentifier>{f7840cab-7b78-4f59-8046-b44f4ca18d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{755a1835-3e63-42c1-a741-a19226d35cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Matcher">
+      <UniqueIdentifier>{01f1e6ab-13fb-42d6-8afa-ded00fac8cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Components">
+      <UniqueIdentifier>{62b46f35-61d8-4e5e-8cc7-981fad4e1350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Systems">
+      <UniqueIdentifier>{5910ae95-343c-4d88-80cc-925f81d26a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{614e9634-6241-4f7b-a29c-1dc5629c81f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Events">
+      <UniqueIdentifier>{2bb76f8e-418e-48bb-b2c2-fa7c480a7b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Base">
+      <UniqueIdentifier>{f356ad06-8770-4c39-90cb-429ddc706c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Consumer">
+      <UniqueIdentifier>{519a0c41-d9eb-402e-beab-c97c2909206a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\SDL.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\SDLContext.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\SDLSurface.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\SDLWindow.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameServer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Config\GameAdapter.cpp">
+      <Filter>Network\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\imgui_impl_opengl2.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\imgui_impl_sdl.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="World\World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GraphicsManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Matcher\ClientMatcher.cpp">
+      <Filter>Network\Matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\RenderTargetSystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\AssetManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\RenderShapeSystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\RenderImageSystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\SizeSystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\KeyInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\MouseInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\CollisionSystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\PlayerMoveSystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\BallMoveSystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Editor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\GizmoSystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\DestroySystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Shader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\TextSystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\NetworkMessageSystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Consumer\ClientMessageConsumer.cpp">
+      <Filter>World\Consumer</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Consumer\ServerMessageConsumer.cpp">
+      <Filter>World\Consumer</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\ClientGameManagerSystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\ServerGameManagerSystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Systems\BotSystem.cpp">
+      <Filter>World\Systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics\Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\SDL.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\SDLContext.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\SDLSurface.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\SDLWindow.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameServer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Data\MyMessage.h">
+      <Filter>Network\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Config\GameAdapter.h">
+      <Filter>Network\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Config\GameChannel.h">
+      <Filter>Network\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Config\GameConnectionConfig.h">
+      <Filter>Network\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Config\GameMessageFactory.h">
+      <Filter>Network\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Config\GameMessageType.h">
+      <Filter>Network\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="World\World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\imgui_impl_opengl2.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\imgui_impl_sdl.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\IReflect.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ReflectField.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ReflectGroup.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ReflectObject.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GraphicsManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameClient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Matcher\ClientMatcher.h">
+      <Filter>Network\Matcher</Filter>
+    </ClInclude>
+    <ClInclude Include="World\EntityFactory.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Scale.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\RenderOrder.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\RectangleShape.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Size.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\RenderTarget.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\RenderTargetSystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Color.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Name.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\CircleShape.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\AssetManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\RenderShapeSystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\RenderImageSystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Image.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Translation.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\SizeSystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Constants.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\UtilMacro.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\KeyInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\MouseInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Move.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Player.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Rival.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Ball.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Types.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Collider.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\CollisionSystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\IntersectionUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Events\CollisionEvent.h">
+      <Filter>World\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\PlayerMoveSystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\BallMoveSystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Editor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\GizmoSystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\DestroySystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Font.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Glyph.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shader.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Text.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\TextSystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Events\RemoveTextEvent.h">
+      <Filter>World\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Events\ChangeTextEvent.h">
+      <Filter>World\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\PlayerMoveHistory.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Base\IMessageSender.h">
+      <Filter>Network\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Base\INetwork.h">
+      <Filter>Network\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Base\INetworkBase.h">
+      <Filter>Network\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Base\INetworkClientBase.h">
+      <Filter>Network\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Base\INetworkDebugger.h">
+      <Filter>Network\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Base\INetworkServerBase.h">
+      <Filter>Network\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Destroy.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\NetworkMessageSystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Data\ClientConnectedMessage.h">
+      <Filter>Network\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\PlayerNetworkInfo.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Consumer\ClientMessageConsumer.h">
+      <Filter>World\Consumer</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Consumer\IMessageConsumer.h">
+      <Filter>World\Consumer</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Consumer\ServerMessageConsumer.h">
+      <Filter>World\Consumer</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Events\AddPlayerEvent.h">
+      <Filter>World\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Events\StartGameEvent.h">
+      <Filter>World\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Data\StartGameMessage.h">
+      <Filter>Network\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Events\SendGameStateEvent.h">
+      <Filter>World\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Data\GameStateMessage.h">
+      <Filter>Network\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\ClientGameManagerSystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\ServerGameManagerSystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\NetworkObject.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Events\NetworkMessageEvent.h">
+      <Filter>World\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Data\PlayerMoveMessage.h">
+      <Filter>Network\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Events\UpdatePlayerMoveEvent.h">
+      <Filter>World\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Deque.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Events\UpdateBallMoveEvent.h">
+      <Filter>World\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Paddle.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Components\Bot.h">
+      <Filter>World\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Systems\BotSystem.h">
+      <Filter>World\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Data\PauseCommandMessage.h">
+      <Filter>Network\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Events\PauseEvent.h">
+      <Filter>World\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Events\RestartEvent.h">
+      <Filter>World\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Data\RestartCommandMessage.h">
+      <Filter>Network\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Base\NetworkDebug.h">
+      <Filter>Network\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Set.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Map.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
