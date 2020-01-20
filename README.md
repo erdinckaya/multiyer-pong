@@ -41,7 +41,7 @@ use that run.bat file to start server and two clients.
 
  ### Usages
 
-It is basic pong game, you can see all options with pushing `H` key. Here are options that you can change or observe.
+It is basic pong game, you can see all options with pressing `H` key. Here are options that you can change or observe.
  * Pause the game.
  * Restart the game.
  * Changing package loss for testing.
