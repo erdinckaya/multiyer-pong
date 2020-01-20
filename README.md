@@ -11,7 +11,7 @@ This project is designed as example project for these purposes.
  * Handling lags and package loss.
  * Creating simple 2D engine with OpenGL and SDL2
  * Using and understanding Data oriented paradigm.
- * Understanding simple principles of OpenGL such as drawing text drawing geometrical shapes and rendering texts.
+ * Understanding simple principles of OpenGL such as drawing text drawing geometrical shapes and rendering textures.
 
  ### Dependencies
  * [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) or newer.
